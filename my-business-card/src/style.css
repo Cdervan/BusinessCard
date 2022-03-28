@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative
+  ;
+  background-color: #23252C;
+  
+  
+  background-image: url("./images/nakedMime.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  
+  background-size: 300px;
+  padding: 250px 105px;
+  
+  min-width: 500px;
+  max-width: 500px;
+}
+
+main {
+  position: relative;
+  padding: 1px 20px;
+  background: #1A1B21;
+  color: white;
+}
+
+.body-head {
+  text-align: center;
+}
+
+.name {
+  
+}
+
+.job {
+  color: #F3BF99;
+}
+
+.website {
+
+}
+
+.buttons {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  background: #161619;
+}
+
+
