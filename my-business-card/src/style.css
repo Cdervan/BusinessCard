@@ -1,53 +1,133 @@
 * {
   box-sizing: border-box;
+  
 }
 
 body {
-
   background-color: #23252C;
-  
-  
-  background-image: url("./images/nakedMime.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  
-  background-size: 300px;
-  padding: 250px 98px 0px 800px;
-  min-width: 800px;
-  max-width: 1200px;
-}
-
-main {
-  margin-top: 14%;
-  padding: 10px 20px;
-  background: #1A1B21;
-  color: white;
-}
-
-.body-head {
   text-align: center;
+  max-width: 321px;
+}
+
+.profpic {
+  width: 320px;
+  height: 320px;
+  object-fit: fill;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: -20px
 }
 
 .name {
-  
+  padding: 10px 0px 0px 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 .job {
   color: #F3BF99;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 1px;
 }
 
 .website {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 20px;
+  color: #F5F5F5;
+}
 
+.main-text {
+  background-color: #1A1B21;
+  color: white;
+  padding: 0px 20px 5px 20px;
+}
+
+.website {
+  padding: 0px 0px 100px 0px;
 }
 
 .buttons {
-  padding: 20px 20px;
-  text-align: center;
-}
-
-footer {
   display: flex;
-  background: #161619;
+  justify-content: center;
+  padding: 10px;
+  justify-content: space-around;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
+.email-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+  padding: 9px 13px 9px 11px;
+  
+  width: 115px;
+  height: 34px;
 
+  background: #FFFFFF;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.button-text {
+  margin-left: -20px
+}
+
+.linkedin-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  
+  width: 115px;
+  height: 34px;
+  
+  background: #5093E2;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.descriptions {
+  text-align: left;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #F5F5F5;
+}
+
+.descriptions > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC; 
+}
+
+Footer {
+  background-color: #161619;
+  width: 321px;
+  height: 60px;
+}
+
+.icon-footers {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}

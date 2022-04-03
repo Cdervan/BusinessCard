@@ -5,6 +5,9 @@ import Footer from "./components/Footer"
 
 export default function App() {
     return (
-        <Body />   
+        <div>
+            <Body />  
+            <Footer /> 
+        </div>
     )
 }
