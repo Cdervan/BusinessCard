@@ -1,12 +1,14 @@
 import React from "react"
-// import profpic from './images/nakedMime.jpg'
+import profpic from '../images/nakedMime.jpg'
+import emailIcon from '../images/Email-icon.png'
+import linkedinIcon from '../images/Linkedin-icon.jpg'
 
 
 export default function Body() {
     return (
         <div className="page">
             <header>
-                <img className="profpic" src="./images/nakedMime.jpg" alt="This is a picture of me"></img>
+                <img className="profpic" src={profpic} alt="This is a picture of me"></img>
             </header>
             <main className="main-text">
                 <div className="body-head">
@@ -17,11 +19,11 @@ export default function Body() {
 
                 <div className="buttons">
                     <button className="email-button">
-                        <img src="./images/Email-icon.png" alt="Email icon"/>
+                        <img src={emailIcon} alt="Email icon"/>
                         <p className="button-text">Email</p>
                     </button>
                     <button className="linkedin-button">
-                        <img src="./images/Linkedin-icon.jpg" alt="LinkedIn icon"/>
+                        <img src={linkedinIcon} alt="LinkedIn icon"/>
                         LinkedIn
                     </button>
                 </div>
